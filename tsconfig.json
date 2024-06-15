@@ -22,6 +22,7 @@
     "baseUrl": "./",
     "paths": {
       "@schemas": ["./src/schemas/index.ts"],
+      "@rtk": ["./src/rtk/index.ts"],
     }
   },
   "include": ["src"],

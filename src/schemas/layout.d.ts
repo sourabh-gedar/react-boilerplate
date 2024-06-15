@@ -1,4 +1,4 @@
 interface LayoutProps {
-    children: React.ReactNode;
+    children: LazyExoticComponent<() => Element>;
 }
 export type { LayoutProps };
